@@ -1,8 +1,9 @@
-# Image_captioning using LSTM
+# Image_captioning using LSTM and Transformer decoders
 I used stochastic updates instead of batch updates i.e., one image at a time is used for updating the network.
 
 
-#Image_captioning with transformer
+**Image_captioning with transformer
+
 Used 4 transformer blocks, hidden size 512, batch size 128, Adagrad optimizer, gelu activation.
 
 You can see difference in generated captions after training for 500 epochs, 1000, 1500, 2000 epochs and at the end captions for unseen data. 
